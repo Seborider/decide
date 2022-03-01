@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1638287084636" clover="3.2.0">
+  <project timestamp="1638287084636" name="All files">
+    <metrics statements="33" coveredstatements="32" conditionals="4" coveredconditionals="2" methods="14" coveredmethods="13" elements="51" coveredelements="47" complexity="0" loc="33" ncloc="33" packages="1" files="5" classes="5"/>
+    <file name="anagrams.js" path="/Users/sebo/jest2/anagrams.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="chunk.js" path="/Users/sebo/jest2/chunk.js">
+      <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="13" type="stmt"/>
+      <line num="5" count="13" type="cond" truecount="2" falsecount="2"/>
+      <line num="6" count="13" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+    <file name="functions.js" path="/Users/sebo/jest2/functions.js">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
+    <file name="reversestring.js" path="/Users/sebo/jest2/reversestring.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
+    <file name="synth.js" path="/Users/sebo/jest2/synth.js">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
