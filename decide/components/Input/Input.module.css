@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.range {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vh;
+}
+
+h4 { 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.minusplus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.floating {
+    width: 90vh;
+
+}
