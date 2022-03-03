@@ -19,10 +19,10 @@ function Input({input} : InputProps) :JSX.Element {
         <div className={style.range}>
             <Form.Label className={style.minusplus}>
                 <FcMinus/>
-                Importance
+                <p>Importance</p>
                 <FcPlus/>
             </Form.Label>
-            <Form.Range />
+            <Form.Range/>
         </div>
     
     
