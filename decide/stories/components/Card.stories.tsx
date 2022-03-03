@@ -5,5 +5,5 @@ export default {
     component: Card,
 };
 
-export const CardA = () : JSX.Element  => <Card name="Auto Kaufen?"/>
-export const CardB = () : JSX.Element  => <Card name="B"/>
+export const CardA = () : JSX.Element  => <Card name="Auto kaufen?" icon="No" />
+export const CardB = () : JSX.Element  => <Card name="Auto leasen?" icon="Yes"/>
