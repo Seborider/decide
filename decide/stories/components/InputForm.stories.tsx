@@ -5,4 +5,5 @@ export default {
     component: InputForm,
 };
 
-export const InputFormA = () => <InputForm input="Kosten"/>
+export const InputFormCost = () => <InputForm input="Cost"/>
+export const InputFormUse = () => <InputForm input="Use"/>
