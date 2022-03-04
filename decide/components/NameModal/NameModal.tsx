@@ -1,7 +1,11 @@
 import style from './NameModal.module.css'
 import {InputGroup, FloatingLabel, Form, Button} from 'react-bootstrap'
 
-function NameModal() {
+type NameModalProps = {
+    onClick?: () => void;
+}
+
+function NameModal({onClick}:NameModalProps) {
   return (
     <div className={style.container}> 
         <InputGroup size="sm" >
@@ -10,7 +14,7 @@ function NameModal() {
         </FloatingLabel>
         </InputGroup>
         <br />
-        <Button variant="dark">Next</Button>
+        <Button variant="dark" onClick={onClick}>Next</Button>
     </div>
   )
 }
