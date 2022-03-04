@@ -2,6 +2,10 @@ import React from 'react'
 import { Button, Container, Col, Row } from 'react-bootstrap'
 import style from './ProContra.module.css'
 
+type ProContraProps = {
+    onClick?: () => void;
+}
+
 type MockData = {
     name: string | number,
     value: string | number,
@@ -25,24 +29,32 @@ const MockDataContra : MockData[] = [
         value: 'Its damn expensive'
     },
     {
-        name: 'environment',
+        name: 'environment3',
+        value: 'Cars are shite for the environment'
+    },
+    {
+        name: 'environment2',
+        value: 'Cars are shite for the environment'
+    },
+    {
+        name: 'environment1',
         value: 'Cars are shite for the environment'
     }
 ]
 
 
-function ProContra() {
+function ProContra({onClick}:ProContraProps) :JSX.Element {
 
 
   return (
     <section className={style.container}>
         <h4>Pro's & Con's</h4>
-        <Button variant="dark">Add</Button>
+        <Button variant="dark" onClick={onClick}>Add</Button>
         <br />
-        <div className={style.list}>
+        <div>
         <Container>
   <Row>
-    <Col>
+    <Col className={style.colLeft}>
     {MockdataPro.map((point) => (
           <li key={point.name}>
             {point.name}
@@ -52,7 +64,7 @@ function ProContra() {
         ))}
     </Col>
 
-    <Col> 
+    <Col className={style.colRight}> 
     {MockDataContra.map((point) => (
           <li key={point.name}>
             {point.name}
@@ -65,6 +77,9 @@ function ProContra() {
   </Container>
 
         </div>
+        <br />
+
+        <Button variant="success" onClick={onClick}>Decide</Button>
     </section>
   )
 }
